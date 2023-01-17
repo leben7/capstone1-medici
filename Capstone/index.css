@@ -13,8 +13,16 @@ h1, h2, h3, h4, h5, h6 {
 li, p {
 	font-family: 'Fjalla One';
 }
-	
 
+/*Responsive Styling*/
+@media (min-width:	576px) {
+	.about-me {
+		display: flex;
+		height: 100vh;
+		width: 100vw;
+		flex-direction: column;
+	}
+}
 /*Navigation Bar*/
 nav a {
 	margin-right: 1.5rem;
@@ -107,6 +115,11 @@ nav a:hover {
 	height: 30vh;
 	width: 25vw;
 	border-radius: 50%;
+}
+
+.icons {
+	height: 50px;
+	width: 50px;
 }
 
 .description {

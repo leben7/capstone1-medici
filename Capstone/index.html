@@ -90,10 +90,12 @@
 				<img src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.6435-9/66440890_2513423165337627_6755896888462934016_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGy8KtEJ2UJYc69TJ_yBsM_CvUMCXGvCxsK9QwJca8LG9eaLcYC76MylVTJQy7eFa-eHwdYnqHn_U4YKf25OTfO&_nc_ohc=L6DTNWD4lCUAX_oy3qU&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfDgaPl2rvs-64zs_xR8Fs4PAbteYUt7Ny1VJi672QPwRA&oe=63EC945B" class="my-photo img-fluid ml-5">
 			</div>
 			<div class="description col-sm-12 col-md-6 pr-5">
-			<h2>Hello!</h2>
-			<h3>My name is Ian Christian V. Medici</h2>
-				<p>I graduated in University of the East Caloocan with a degree in Mechanical Engineering. I am interested in programming and I find it fascinating, so when I have the opportunity to change career - I took it without second thoughts.</p>
-		</div>
+				<h2>Hello!</h2>
+				<h3>My name is Ian Christian V. Medici</h2>
+				<p>I graduated in University of the East Caloocan with a degree in Mechanical Engineering. I am interested in programming and I find it fascinating, I am new Web Developer and currently honing my skills.</p>
+				<a href="https://www.facebook.com/ian.medici/" target="_blank"><img src="./fb-icon.png" class="img-fluid icons"></a>
+				<a href="https://www.linkedin.com/in/ian-medici-67ab771a3/"><img src="./linkedin-icon.png" class="img-fluid icons" target="_blank"></a>
+			</div>
 		</div>
 	</section>
 		<!-- About Me Section End -->
@@ -166,51 +168,51 @@
 
 		<!-- Contact Section Start -->
 		<section class="contact-me text-center" id="contact_me">
-				<h2 class="text-light">Contact Me</h2>
+			<h2 class="text-light">Contact Me</h2>
 
-				<form class="container-fluid col-auto bg-primary text-light container-fluid">
-					<div class="form-group">
-						<label for="name">Name</label>
-						<input type="email" class="form-control" id="name">
-					</div>
-					<div class="form-group">
-						<label for="email">Email address</label>
-						<input type="text" class="form-control" id="email">
-					</div>
-					<div class="form-group">
-						<label for="contact-number">Contact Number</label>
-						<input type="Number" class="form-control" id="contact-number">
-					</div>
-					<div class="form-group">
-						<label for="message">Message</label>
-						<textarea name="message" id="message" class="form-control form-control-lg" rows="5"></textarea>
+			<form class="container-fluid col-auto bg-primary text-light container-fluid">
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="email" class="form-control" id="name" required autocomplete>
+				</div>
+				<div class="form-group">
+					<label for="email">Email address</label>
+					<input type="text" class="form-control" id="email" required autocomplete>
+				</div>
+				<div class="form-group">
+					<label for="contact-number">Contact Number</label>
+					<input type="Number" class="form-control" id="contact-number" required autocomplete>
+				</div>
+				<div class="form-group">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" class="form-control form-control-lg" rows="5"></textarea>
 
-						<!-- Button trigger modal -->
-						<button type="button" class="btn btn-dark mt-3 mb-3" data-toggle="modal" data-target="#submit">
-							Submit
-						</button>
+					<!-- Button trigger modal -->
+					<button type="submit" class="btn btn-dark mt-3 mb-3" data-toggle="modal" data-target="#submit">
+						Submit
+					</button>
 
-						<!-- Modal -->
-						<div class="modal fade" id="submit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-							<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header">
-										<h5 class="modal-title text-dark" id="submit">Thank you for contacting me!</h5>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-									</div>
-									<div class="modal-body text-dark">
-										Message Successfully Sent
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-									</div>
+					<!-- Modal -->
+					<div class="modal fade" id="submit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title text-dark" id="submit">Thank you for contacting me!</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body text-dark">
+									Message Successfully Sent
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
+					</div>
 
-					</form>
+				</form>
 			</section>
 			<!-- Contact Section End -->
 
