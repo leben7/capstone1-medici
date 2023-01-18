@@ -15,7 +15,9 @@ li, p {
 }
 
 /*Responsive Styling*/
+@media {
 
+}
 /*Navigation Bar*/
 nav a {
 	margin-right: 1.5rem;
@@ -141,13 +143,6 @@ nav a:hover {
 }
 
 /*Project Styling*/
-.project {
-	height: 100vh;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	background-color: rgba(70, 70, 70, 27);
-}
 
 .project-header {
 	color: white;
@@ -185,4 +180,14 @@ form {
 	background-color: #6c757d;
 	padding: 10px 30px;
 	border: 1px solid white;
+}
+
+.sub-mit {
+	text-decoration: none;
+	color: white;
+}
+
+.sub-mit:hover {
+	text-decoration: none;
+	color: white;
 }
